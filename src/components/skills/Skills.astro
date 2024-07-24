@@ -1,0 +1,48 @@
+---
+import Title from '../atoms/Title.astro';
+// import SkillsOnTerminal from './components/skills-on-terminal/skillsOnTerminal.astro';
+import './skills.css';
+
+const services = [
+	{
+		title: 'Web Development',
+		description: 'Deploy responsive and modern web applications.',
+		icon: 'la:laptop-code',
+	},
+	{
+		title: 'Mobile Development',
+		description: 'Create mobile applications for both Android and iOS.',
+		icon: 'la:mobile-alt',
+	},
+	{
+		title: 'AI & Machine Learning',
+		description: 'Build AI and Machine Learning models.',
+		icon: 'la:robot',
+	},
+];
+---
+
+<section id="skills">
+	<!-- <SkillsOnTerminal /> -->
+	<div>
+		<Title contenido="Services" margin="2rem" />
+		<div class="services-container">
+			{
+				services.map((service) => (
+					<div class="service">
+						<iconify-icon
+							class="iconify"
+							icon={service.icon}
+							width="80"
+							height="80"
+							style="color: var(--primary-100);"
+						/>
+
+						<h3>{service.title}</h3>
+						<p>{service.description}</p>
+					</div>
+				))
+			}
+		</div>
+	</div>
+</section>

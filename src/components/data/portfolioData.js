@@ -15,7 +15,7 @@
  */
 export const portafolioData = [
 	{
-		imgSrc: 'img/telegram-bot.png',
+		imgSrc: 'img/portfolio/telegram-bot.png',
 		title: 'E-commerce Deals Bot',
 		skills: ['Python', 'Telegram', 'MongoDB', 'Heroku'],
 		descripcion:
@@ -24,9 +24,21 @@ export const portafolioData = [
 		repoURL:
 			'https://github.com/alexjamesmx/e-commerce-offers-telegram-bot',
 		anim: 'fade-right',
+		averageBrightness: 0.3,
 	},
 	{
-		imgSrc: 'img/num-guessing-game.png',
+		imgSrc: 'img/portfolio/icebreaker.png',
+		title: 'Ice Breaker (Hackathon Colab)',
+		skills: ['NextJS', 'Tailwind', 'React', 'MySQL', 'Vercel'],
+		repoURL: 'https://github.com/alexjamesmx/iceBreaker',
+		demoURL: 'https://the-ice-breaker.vercel.app/',
+		anim: 'fade-up',
+		descripcion:
+			'Improve networking, social interaction, and events both fun and effortless 👨‍🏭🧕. Our vision is to create a relaxed environment where participants can easily connect through interactive games, similar to Kahoot.',
+		averageBrightness: 0.3,
+	},
+	{
+		imgSrc: 'img/portfolio/num-guessing-game.png',
 		title: 'Number Guessing Game',
 		skills: ['Java', 'Android'],
 		descripcion:
@@ -35,6 +47,17 @@ export const portafolioData = [
 		repoURL: 'https://github.com/alexjamesmx/Num-Guesser-Game',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
+	},
+	{
+		imgSrc: 'img/portfolio/next-oauth.png',
+		title: 'Auth0 NextJS ToDo App',
+		skills: ['NextJS', 'MongoDB', 'Auth0', 'Tailwind'],
+		descripcion:
+			'Fullstack ToDo App with NextJS, MongoDB, and Auth0. It has authentication, authorization, and CRUD operations. It was deployed on Vercel pointing custom domain.',
+		demoURL: 'https://project1.alexjamesmx.dev',
+		repoURL: 'https://github.com/alexjamesmx/TODOs_next_mongo_Auth0',
+		anim: 'fade-up',
+		averageBrightness: 0.2,
 	},
 ];
 
@@ -53,6 +76,10 @@ const skillIcons = {
 	Heroku: 'logos:heroku-icon',
 	Java: 'logos:java',
 	Android: 'openmoji:android',
+	NextJS: 'devicon:nextjs',
+	Auth0: 'simple-icons:auth0',
+	MySQL: 'logos:mysql',
+	Vercel: 'gg:vercel',
 };
 
 /**

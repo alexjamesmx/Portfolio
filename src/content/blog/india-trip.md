@@ -1,13 +1,15 @@
 ---
-title: 'Trip to India @ ZOHO 🛕'
+title: 'Trip to India @ ZOHO'
 description: 'I had the opportunity to travel to India and visit the ZOHO HQ.'
 pubDate: 'Apr 26 2024'
-heroImage: 'img/india-temple.jpg'
+heroImage: 'img/experiences/india-temple.jpg'
 ---
 
 ## The awakening of my excitement for traveling the world
 
-![India Temple](/img/india-temple.jpg)
+<div align="center" >
+<img src="/img/experiences/india-temple.jpg" width="400" height="600"/>
+</div>
 
 As a working class mexican citizen, I never thought I would have the opportunity to travel this young, and even less to a country as exotic as India after going to the US. But life is full of surprises, and I was lucky enough to be invited to visit the ZOHO headquarters in Chennai, India.
 

@@ -22,7 +22,7 @@ const posts = (await getCollection('blog')).sort(
 							<CardBlog
 								title={post.data.title}
 								content={post.data.description}
-								img={post.data.heroImage}
+								img={`../${post.data.heroImage}`}
 								href={`/blog/${post.slug}/`}
 							>
 								<FormattedDate

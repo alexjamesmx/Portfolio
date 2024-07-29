@@ -8,7 +8,6 @@ import Logo from '../Logo.astro';
 	<div class="header__container">
 		<Logo name={name} />
 		<nav class="links" tabindex="0.1">
-			<button class="menu__btn">Menú</button>
 			<ul class="header__list">
 				{
 					origin.map((data) => (
@@ -20,6 +19,32 @@ import Logo from '../Logo.astro';
 										icon={data.icon}
 										width="20"
 										height="20"
+										noobserver
+									/>
+									{data.content}
+								</span>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</nav>
+	</div>
+	<div class="links2">
+		<nav class="links" tabindex="0.1" id="links">
+			<button class="menu__btn" onclick="toggleMenu()">Menú</button>
+			<ul class="header__list">
+				{
+					origin.map((data) => (
+						<li>
+							<a class="menu__link" href={data.link}>
+								<span class="icon__container">
+									<iconify-icon
+										class="icons"
+										icon={data.icon}
+										width="20"
+										height="20"
+										noobserver
 									/>
 									{data.content}
 								</span>
@@ -31,3 +56,34 @@ import Logo from '../Logo.astro';
 		</nav>
 	</div>
 </header>
+
+<script>
+	// This script will be run in the browser
+	document.addEventListener('DOMContentLoaded', () => {
+		const button = document.getElementsByClassName('menu__btn');
+		//if links are focus:within then remove focus
+		let links = document.getElementById('links');
+
+		button[0].addEventListener('focus', () => {
+			if (!links.classList.contains('focus')) {
+				links.classList.add('focus');
+				document.querySelector('.header__list').style.opacity = 1;
+				document.querySelector('.header__list').style.pointerEvents =
+					'all';
+			}
+		});
+
+		// if links are focus:within then remove focus
+		document.addEventListener('click', (e) => {
+			if (
+				links.classList.contains('focus') &&
+				!e.target.classList.contains('links')
+			) {
+				links.classList.remove('focus');
+				document.querySelector('.header__list').style.opacity = 0;
+				document.querySelector('.header__list').style.pointerEvents =
+					'none';
+			}
+		});
+	});
+</script>

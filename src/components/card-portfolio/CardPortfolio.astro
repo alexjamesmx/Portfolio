@@ -30,7 +30,7 @@ const {
 			<div class="skills">
 				{
 					skills.map((skill) => (
-						<iconify-icon class="iconify" icon={skill} />
+						<iconify-icon class="iconify" icon={skill} noobserver />
 					))
 				}
 			</div>
@@ -39,14 +39,14 @@ const {
 				<a href={repoURL}>
 					<span>
 						Github
-						{(<iconify-icon icon="quill:link-out" />)}
+						{(<iconify-icon icon="quill:link-out" noobserver />)}
 					</span>
 				</a>
 
 				<a href={demoURL}>
 					<span>
 						Demo
-						{(<iconify-icon icon="quill:link-out" />)}
+						{(<iconify-icon icon="quill:link-out" noobserver />)}
 					</span>
 				</a>
 			</div>

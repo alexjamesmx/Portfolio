@@ -34,6 +34,21 @@ import { mainMenu } from '../components/data/menuData.js';
 		<script
 			src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"
 		></script>
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-MNYLCZLP2L"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-MNYLCZLP2L');
+		</script>
+
 		<title>{title}</title>
 	</head>
 	<body class="flex flex-col">

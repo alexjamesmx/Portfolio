@@ -8,6 +8,7 @@ const {
 	repoURL,
 	demoURL,
 	averageBrightness,
+	Youtube,
 } = Astro.props;
 ---
 
@@ -23,7 +24,7 @@ const {
 	/>
 
 	<div class="descripcion__container">
-		<h2 class="card__title">{title}</h2>
+		<h3 class="card__title">{title}</h3>
 		<div class="descripcion">
 			<p>{descripcion}</p>
 
@@ -49,6 +50,21 @@ const {
 						{(<iconify-icon icon="quill:link-out" noobserver />)}
 					</span>
 				</a>
+				{
+					Youtube && (
+						<a href={Youtube}>
+							<span>
+								Youtube
+								{
+									<iconify-icon
+										icon="quill:link-out"
+										noobserver
+									/>
+								}
+							</span>
+						</a>
+					)
+				}
 			</div>
 		</div>
 	</div>

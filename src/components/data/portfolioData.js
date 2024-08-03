@@ -27,14 +27,38 @@ export const portafolioData = [
 		averageBrightness: 0.3,
 	},
 	{
+		imgSrc: 'img/portfolio/inventory.png',
+		title: 'Inventory Managment (AI)',
+		skills: ['NextJS', 'MaterialUI', 'React', 'Firebase', 'OpenAI'],
+		repoURL: 'https://github.com/alexjamesmx/Inventory-Management-System',
+		demoURL: 'https://inventory-management-system-three-flax.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=IZGCvlt2FrI',
+		anim: 'fade-up',
+		descripcion:
+			'System powered with OpenAI. Camera + Image recognition. Recipe AI Generator. It uses Firebase for authentication and Firestore for the database. It has CRUD operations and a search bar with autocomplete.',
+		averageBrightness: 0.3,
+	},
+	{
 		imgSrc: 'img/portfolio/icebreaker.png',
 		title: 'Ice Breaker (Hackathon Colab)',
 		skills: ['NextJS', 'Tailwind', 'React', 'MySQL', 'Vercel'],
 		repoURL: 'https://github.com/alexjamesmx/iceBreaker',
 		demoURL: 'https://the-ice-breaker.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=_u_-baDNG0o&t=1s',
 		anim: 'fade-up',
 		descripcion:
 			'Improve networking, social interaction, and events both fun and effortless 👨‍🏭🧕. Our vision is to create a relaxed environment where participants can easily connect through interactive games, similar to Kahoot.',
+		averageBrightness: 0.3,
+	},
+	{
+		imgSrc: 'img/portfolio/pinterest.png',
+		title: 'Pinterest Like App (PWA)',
+		skills: ['PWA', 'Express', 'React', 'Tailwind', 'MongoDB', 'Firebase'],
+		repoURL: 'https://github.com/alexjamesmx/Pinterest-Like-Frontend',
+		demoURL: 'https://pinterest-like-frontend.vercel.app/',
+		anim: 'fade-up',
+		descripcion:
+			'Clone of Pinterest App (PWA + Service Worker). Consumes Unsplashed API for images. Authentication, infinite scroll, favorites + libraries.',
 		averageBrightness: 0.3,
 	},
 	{
@@ -80,6 +104,11 @@ const skillIcons = {
 	Auth0: 'simple-icons:auth0',
 	MySQL: 'logos:mysql',
 	Vercel: 'gg:vercel',
+	MaterialUI: 'mdi:material-ui',
+	Firebase: 'devicon:firebase',
+	OpenAI: 'mingcute:openai-fill',
+	PWA: 'simple-icons:pwa',
+	Express: 'skill-icons:expressjs-light',
 };
 
 /**

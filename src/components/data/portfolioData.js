@@ -28,7 +28,7 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'img/portfolio/inventory.png',
-		title: 'Inventory Managment (AI)',
+		title: 'Inventory Managment AI',
 		skills: ['NextJS', 'MaterialUI', 'React', 'Firebase', 'OpenAI'],
 		repoURL: 'https://github.com/alexjamesmx/Inventory-Management-System',
 		demoURL: 'https://inventory-management-system-three-flax.vercel.app/',
@@ -39,15 +39,38 @@ export const portafolioData = [
 		averageBrightness: 0.3,
 	},
 	{
-		imgSrc: 'img/portfolio/icebreaker.png',
-		title: 'Ice Breaker (Hackathon Colab)',
-		skills: ['NextJS', 'Tailwind', 'React', 'MySQL', 'Vercel'],
-		repoURL: 'https://github.com/alexjamesmx/iceBreaker',
-		demoURL: 'https://the-ice-breaker.vercel.app/',
-		Youtube: 'https://www.youtube.com/watch?v=_u_-baDNG0o&t=1s',
+		imgSrc: 'img/portfolio/olostep.png',
+		title: 'Browser AI Agent',
+		skills: ['Express', 'React', 'MongoDB', 'Playwright', 'Python'],
+		repoURL: 'https://github.com/alexjamesmx/Hackathon-Browser-AI-Back',
+		demoURL: 'https://olostep-hackathon-front.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=BpNsOKiePzs&t=7s',
 		anim: 'fade-up',
 		descripcion:
-			'Improve networking, social interaction, and events both fun and effortless 👨‍🏭🧕. Our vision is to create a relaxed environment where participants can easily connect through interactive games, similar to Kahoot.',
+			'Hackathon | Tool that web scrapes and uses AI to group and retrieve the most relevant information of any website.',
+		averageBrightness: 0.3,
+	},
+	{
+		imgSrc: 'img/portfolio/ratemyprofessor.png',
+		title: 'Rate My Professor',
+		skills: ['NextJS', 'OpenAI', 'Clerk', 'AI'],
+		repoURL: 'https://github.com/alexjamesmx/Hackathon-Rate-My-Professor',
+		demoURL: 'https://rate-my-professor-ps1e.vercel.app/',
+		anim: 'fade-up',
+		descripcion:
+			'Hackathon | Web app that uses OpenAI + Pinecone (vector database) + RAG concept to generate reviews for professors. It uses Clerk for authentication and NextJS for the frontend.',
+		averageBrightness: 0.3,
+	},
+	{
+		imgSrc: 'img/portfolio/icebreaker.png',
+		title: 'Ice Breaker',
+		skills: ['NextJS', 'Tailwind', 'React', 'MySQL', 'Vercel'],
+		repoURL: 'https://github.com/alexjamesmx/Hackathon-IceBreaker',
+		demoURL: 'https://the-ice-breaker.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=_u_-baDNG0o&t=2s',
+		anim: 'fade-up',
+		descripcion:
+			'Hackathon | Improve networking, social interaction, and events both fun and effortless 👨‍🏭🧕. Our vision is to create a relaxed environment where participants can easily connect through interactive games, similar to Kahoot.',
 		averageBrightness: 0.3,
 	},
 	{
@@ -109,6 +132,9 @@ const skillIcons = {
 	OpenAI: 'mingcute:openai-fill',
 	PWA: 'simple-icons:pwa',
 	Express: 'skill-icons:expressjs-light',
+	Playwright: 'logos:playwright',
+	Clerk: 'simple-icons:clerk',
+	AI: 'tabler:ai',
 };
 
 /**

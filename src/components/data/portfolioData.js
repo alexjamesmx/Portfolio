@@ -42,7 +42,8 @@ export const portafolioData = [
 		imgSrc: 'img/portfolio/olostep.png',
 		title: 'Browser AI Agent',
 		skills: ['Express', 'React', 'MongoDB', 'Playwright', 'Python'],
-		repoURL: 'https://github.com/alexjamesmx/Hackathon-Browser-AI-Back',
+		repoURL:
+			'https://github.com/alexjamesmx/Hackathon-Browser-AI-Agent-Back',
 		demoURL: 'https://olostep-hackathon-front.vercel.app/',
 		Youtube: 'https://www.youtube.com/watch?v=BpNsOKiePzs&t=7s',
 		anim: 'fade-up',
@@ -54,16 +55,16 @@ export const portafolioData = [
 		imgSrc: 'img/portfolio/ratemyprofessor.png',
 		title: 'Rate My Professor',
 		skills: ['NextJS', 'OpenAI', 'Clerk', 'AI'],
-		repoURL: 'https://github.com/alexjamesmx/Hackathon-Rate-My-Professor',
+		repoURL: 'https://github.com/alexjamesmx/Rate-My-Professor',
 		demoURL: 'https://rate-my-professor-ps1e.vercel.app/',
 		anim: 'fade-up',
 		descripcion:
-			'Hackathon | Web app that uses OpenAI + Pinecone (vector database) + RAG concept to generate reviews for professors. It uses Clerk for authentication and NextJS for the frontend.',
+			'Web app that uses OpenAI + Pinecone (vector database) + RAG concept to generate reviews for professors. It uses Clerk for authentication and NextJS for the frontend.',
 		averageBrightness: 0.3,
 	},
 	{
 		imgSrc: 'img/portfolio/icebreaker.png',
-		title: 'Ice Breaker',
+		title: 'Ice Breaker SaaS demo',
 		skills: ['NextJS', 'Tailwind', 'React', 'MySQL', 'Vercel'],
 		repoURL: 'https://github.com/alexjamesmx/Hackathon-IceBreaker',
 		demoURL: 'https://the-ice-breaker.vercel.app/',
@@ -75,10 +76,11 @@ export const portafolioData = [
 	},
 	{
 		imgSrc: 'img/portfolio/pinterest.png',
-		title: 'Pinterest Like App (PWA)',
+		title: 'Pinterest Like App',
 		skills: ['PWA', 'Express', 'React', 'Tailwind', 'MongoDB', 'Firebase'],
 		repoURL: 'https://github.com/alexjamesmx/Pinterest-Like-Frontend',
 		demoURL: 'https://pinterest-like-frontend.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=IJ2urwio_v4',
 		anim: 'fade-up',
 		descripcion:
 			'Clone of Pinterest App (PWA + Service Worker). Consumes Unsplashed API for images. Authentication, infinite scroll, favorites + libraries.',
@@ -94,17 +96,6 @@ export const portafolioData = [
 		repoURL: 'https://github.com/alexjamesmx/Num-Guesser-Game',
 		anim: 'fade-up',
 		averageBrightness: 0.1,
-	},
-	{
-		imgSrc: 'img/portfolio/next-oauth.png',
-		title: 'Auth0 NextJS ToDo App',
-		skills: ['NextJS', 'MongoDB', 'Auth0', 'Tailwind'],
-		descripcion:
-			'Fullstack ToDo App with NextJS, MongoDB, and Auth0. It has authentication, authorization, and CRUD operations. It was deployed on Vercel pointing custom domain.',
-		demoURL: 'https://project1.alexjamesmx.dev',
-		repoURL: 'https://github.com/alexjamesmx/TODOs_next_mongo_Auth0',
-		anim: 'fade-up',
-		averageBrightness: 0.2,
 	},
 ];
 

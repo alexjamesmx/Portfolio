@@ -27,18 +27,6 @@ export const portafolioData = [
 		averageBrightness: 0.3,
 	},
 	{
-		imgSrc: 'img/portfolio/inventory.png',
-		title: 'Inventory Managment AI',
-		skills: ['NextJS', 'MaterialUI', 'React', 'Firebase', 'OpenAI'],
-		repoURL: 'https://github.com/alexjamesmx/Inventory-Management-System',
-		demoURL: 'https://inventory-management-system-three-flax.vercel.app/',
-		Youtube: 'https://www.youtube.com/watch?v=IZGCvlt2FrI',
-		anim: 'fade-up',
-		descripcion:
-			'System powered with OpenAI. Camera + Image recognition. Recipe AI Generator. It uses Firebase for authentication and Firestore for the database. It has CRUD operations and a search bar with autocomplete.',
-		averageBrightness: 0.3,
-	},
-	{
 		imgSrc: 'img/portfolio/olostep.png',
 		title: 'Browser AI Agent',
 		skills: ['Express', 'React', 'MongoDB', 'Playwright', 'Python'],
@@ -52,16 +40,42 @@ export const portafolioData = [
 		averageBrightness: 0.3,
 	},
 	{
+		imgSrc: 'img/portfolio/pinterest.png',
+		title: 'Pinterest Like App',
+		skills: ['PWA', 'Express', 'React', 'Tailwind', 'MongoDB', 'Firebase'],
+		repoURL: 'https://github.com/alexjamesmx/Pinterest-Like-Frontend',
+		demoURL: 'https://pinterest-like-frontend.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=IJ2urwio_v4',
+		anim: 'fade-up',
+		descripcion:
+			'Clone of Pinterest App (PWA + Service Worker). Consumes Unsplashed API for images. Authentication, infinite scroll, favorites + libraries.',
+		averageBrightness: 0.3,
+	},
+	{
 		imgSrc: 'img/portfolio/ratemyprofessor.png',
 		title: 'Rate My Professor',
 		skills: ['NextJS', 'OpenAI', 'Clerk', 'AI'],
 		repoURL: 'https://github.com/alexjamesmx/Rate-My-Professor',
 		demoURL: 'https://rate-my-professor-ps1e.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=tLP4KK5v5Ek',
 		anim: 'fade-up',
 		descripcion:
 			'Web app that uses OpenAI + Pinecone (vector database) + RAG concept to generate reviews for professors. It uses Clerk for authentication and NextJS for the frontend.',
 		averageBrightness: 0.3,
 	},
+	{
+		imgSrc: 'img/portfolio/inventory.png',
+		title: 'Inventory Managment AI',
+		skills: ['NextJS', 'MaterialUI', 'React', 'Firebase', 'OpenAI'],
+		repoURL: 'https://github.com/alexjamesmx/Inventory-Management-System',
+		demoURL: 'https://inventory-management-system-three-flax.vercel.app/',
+		Youtube: 'https://www.youtube.com/watch?v=IZGCvlt2FrI',
+		anim: 'fade-up',
+		descripcion:
+			'System powered with OpenAI. Camera + Image recognition. Recipe AI Generator. It uses Firebase for authentication and Firestore for the database. It has CRUD operations and a search bar with autocomplete.',
+		averageBrightness: 0.3,
+	},
+
 	{
 		imgSrc: 'img/portfolio/icebreaker.png',
 		title: 'Ice Breaker SaaS demo',
@@ -75,16 +89,15 @@ export const portafolioData = [
 		averageBrightness: 0.3,
 	},
 	{
-		imgSrc: 'img/portfolio/pinterest.png',
-		title: 'Pinterest Like App',
-		skills: ['PWA', 'Express', 'React', 'Tailwind', 'MongoDB', 'Firebase'],
-		repoURL: 'https://github.com/alexjamesmx/Pinterest-Like-Frontend',
-		demoURL: 'https://pinterest-like-frontend.vercel.app/',
-		Youtube: 'https://www.youtube.com/watch?v=IJ2urwio_v4',
-		anim: 'fade-up',
+		imgSrc: 'img/portfolio/next-oauth.png',
+		title: 'Auth0 NextJS ToDo App',
+		skills: ['NextJS', 'MongoDB', 'Auth0', 'Tailwind'],
 		descripcion:
-			'Clone of Pinterest App (PWA + Service Worker). Consumes Unsplashed API for images. Authentication, infinite scroll, favorites + libraries.',
-		averageBrightness: 0.3,
+			'Fullstack ToDo App with NextJS, MongoDB, and Auth0. It has authentication, authorization, and CRUD operations. It was deployed on Vercel pointing custom domain.',
+		demoURL: 'https://project1.alexjamesmx.dev',
+		repoURL: 'https://github.com/alexjamesmx/TODOs_next_mongo_Auth0',
+		anim: 'fade-up',
+		averageBrightness: 0.2,
 	},
 	{
 		imgSrc: 'img/portfolio/num-guessing-game.png',
